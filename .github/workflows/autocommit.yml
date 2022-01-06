@@ -29,16 +29,16 @@ jobs:
           git config --local user.name "itsnaufal"
           git add -A
           
-          arr[0]="chore(bot): 😂 auto commit"
-          arr[1]="chore(bot): 😱 auto commit"
-          arr[2]="chore(bot): 👿 auto commit"
-          arr[3]="chore(bot): 💩 auto commit"
-          arr[4]="chore(bot): 🙏 auto commit"
-          arr[5]="chore(bot): 🙈 auto commit"
-          arr[6]="chore(bot): 🐐 auto commit"
-          arr[7]="chore(bot): 🤖 auto commit"
-          arr[8]="chore(bot): 🟩 auto commit"
-          arr[9]="chore(bot): 👻 auto commit"
+          arr[0]="Changed some configuration"
+          arr[1]="Mengubah konfig"
+          arr[2]="Menambahkan sesuatu"
+          arr[3]="Mengedit sesuatu"
+          arr[4]="Mengubah sesuatu"
+          arr[5]="Menambahkan bug"
+          arr[6]="Memperbaiki bug"
+          arr[7]="Menambahkan fitur"
+          arr[8]="Menghapus beberapa fitur"
+          arr[9]="Melakukan update config"
           
           rand=$[$RANDOM % ${#arr[@]}]
           
